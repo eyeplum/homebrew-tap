@@ -6,9 +6,10 @@ class CiceroTui < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/eyeplum/cicero-tui.git"
 
+  depends_on "pkg-config" => :build
   depends_on "rust" => :build
+
   depends_on "fontconfig"
-  depends_on "pkg-config"
 
   def install
     system "cargo", "install", *std_cargo_args
