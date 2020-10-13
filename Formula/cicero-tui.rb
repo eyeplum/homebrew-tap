@@ -1,8 +1,8 @@
 class CiceroTui < Formula
   desc "Unicode tool with a terminal user interface"
   homepage "https://github.com/eyeplum/cicero-tui"
-  url "https://github.com/eyeplum/cicero-tui/archive/v0.1.1.tar.gz"
-  sha256 "1bd6f4b3a1675dd3762117c0e54991706cf22bac9f886e9d03764fd020cabce3"
+  url "https://github.com/eyeplum/cicero-tui/archive/v0.1.2.tar.gz"
+  sha256 "82ab6703d63c8ddd112e80123640e9cd0dd881242debf9eee271ae3bb8ed0eda"
   license "GPL-3.0-or-later"
   head "https://github.com/eyeplum/cicero-tui.git"
 
